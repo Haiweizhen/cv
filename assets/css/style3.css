@@ -1,0 +1,88 @@
+header {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgb(10, 10, 10);
+    position: fixed;
+    overflow: scroll;
+    color:white;
+    left: 0px;
+    top: 0px;
+    border:white;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    z-index: 99;
+}
+
+header a:link {color:white;text-decoration: none;}
+header a:visited {color:white;text-decoration: none;}
+header a:hover {color:yellow;text-decoration: none;}
+header a:active {color:rgb(0, 255, 85);text-decoration: none;}
+
+
+
+body {
+    margin: 0;
+    
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+
+}
+
+
+
+#title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+
+
+#text1{
+    top: 17%;
+    position: absolute;
+	font-size:3em;
+    left: 40%;
+}
+
+
+
+#text2{
+    top: 30%;
+    position: absolute;
+	font-size:1.4em;
+    left: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
